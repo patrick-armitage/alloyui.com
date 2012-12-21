@@ -1,0 +1,19 @@
+---
+title: Real World
+layout: single-example
+tags: 'progress-bar'
+---
+
+<h1>Progress Bar - Real World Sample</h1>
+
+<div id="#progressBar" style="margin: 10px 5px;">
+	<button class="load" value="Load">Load</button>
+	<div class="pbar"></div>
+	<div id="loadcontent"></div>
+</div>
+
+<script id="snippet">
+  <%- @readFile('real-world.js', 'javascript') %>
+</script>
+
+<%- @codeFile('real-world.js', 'javascript') %>
