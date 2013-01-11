@@ -8,7 +8,7 @@ tags: 'portallayout'
 
 <h1>Portal Layout - Real World Example</h1>
 
-<div id="myPortalLayout">
+<div class="nodrop" id="myPortalLayout">
   <div class="column">
     <div class="portlet">
       <h5>Column 1 Portlet 1</h5>
@@ -52,14 +52,14 @@ tags: 'portallayout'
     </div>
   </div>
 </div>
-<div class="sidebar">
-  <div class="portlet-item blue" id="blue">New Portlet</div>
-  <div class="portlet-item green" id="green">New Portlet</div>
-  <div class="portlet-item red" id="red">New Portlet</div>
-  <div class="portlet-item yellow" id="yellow">New Portlet</div>
+<div class="sidebar nodrop">
+  <div class="portlet-item blue nodrop" id="blue">New Portlet</div>
+  <div class="portlet-item green nodrop" id="green">New Portlet</div>
+  <div class="portlet-item red nodrop" id="red">New Portlet</div>
+  <div class="portlet-item yellow nodrop" id="yellow">New Portlet</div>
 </div>
 
-<div class="clearfix"></div>
+<div class="clearfix nodrop"></div>
 
 <script id="snippet">
   <%- @readFile('real-world.js', 'javascript') %>
